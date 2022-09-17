@@ -23,15 +23,12 @@ public class Odometry {
     // instantiate odometry class
     public Odometry(DcMotor getLeftEncoder,
                     DcMotor getRightEncoder,
-                    DcMotor getPerpEncoder,
-                    double getTrackWidth,
-                    double getForwardOffset)
-    {
+                    DcMotor getPerpEncoder) {
         leftEncoder = getLeftEncoder;
         rightEncoder = getRightEncoder;
         perpendicularEncoder = getPerpEncoder;
-        trackWidth = getTrackWidth;
-        forwardOffset = getForwardOffset;
+        trackWidth = 20; // get actual measurement
+        forwardOffset = 20; // get actual measurement
     }
 
     // run odometry and return list of doubles in form [x, y, heading]

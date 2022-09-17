@@ -22,17 +22,13 @@ public class Drive {
         motorBackRight = getBackRight;
     }
 
-    public void mecanum() {
-        double y = -gamepad1.left_stick_y; // Remember, this is reversed!
-        double x = gamepad1.left_stick_x * 1.1; // Counteract imperfect strafing
-        double rx = gamepad1.right_stick_x;
-
+    public void mecanum(double power, double strafe, double turn) {
         // denominator is largest motor power
-        double denominator = Math.max(Math.abs(y) + Math.abs(x) + Math.abs(rx), 1);
-        double frontLeftPower = (y + x + rx) / denominator;
-        double backLeftPower = (y - x + rx) / denominator;
-        double frontRightPower = (y - x - rx) / denominator;
-        double backRightPower = (y + x - rx) / denominator;
+        double denominator = Math.max(Math.abs(power) + Math.abs(strafe) + Math.abs(turn), 1);
+        double frontLeftPower = (power + strafe + turn) / denominator;
+        double backLeftPower = (power - strafe + turn) / denominator;
+        double frontRightPower = (power - strafe - turn) / denominator;
+        double backRightPower = (power + strafe - turn) / denominator;
 
         motorFrontLeft.setPower(frontLeftPower);
         motorBackLeft.setPower(backLeftPower);
