@@ -71,4 +71,16 @@ public class Odometry {
     public double getHeading() {
         return heading;
     }
+    
+    public void setX(double value) {
+        x_pos = value;
+    }
+    
+    public void setY(double value) {
+        y_pos = value;
+    }
+    
+    public void setHeading(double value) {
+        heading = value;
+    }
 }
