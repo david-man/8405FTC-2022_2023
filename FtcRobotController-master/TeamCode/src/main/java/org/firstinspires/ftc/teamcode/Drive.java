@@ -33,9 +33,11 @@ public class Drive {
             double power = power_PD.get_value(y_error * Math.cos(phi) + x_error * Math.sin(phi));
             double strafe = strafe_PD.get_value(x_error * Math.cos(phi) - y_error * Math.sin(phi));
             double turn = turn_PD.get_value(IMU_error) * turn_coefficient;
+            mecanum(power, strafe, turn, 127);
         }
 
-        mecanum(power, strafe, turn, 127);
+	delay(5);
+
     }
 
     public void mecanum() {
