@@ -35,9 +35,26 @@ public class Drive {
             double turn = turn_PD.get_value(IMU_error) * turn_coefficient;
             mecanum(power, strafe, turn, 127);
         }
-
 	delay(5);
+    }
 
+    public void moveToKedaar(double x, double y) {
+        while(true) {
+            move_to_count = (int)move_to_count + 1;
+            double phi = heading * Math.pi / 180;
+
+            double imuError = -(heading - new_heading);
+            double yError = new_y - y;
+            double xError = (new_x - x) * -1;
+
+            double power = power_PD.get_value(yError * std::cos(phi) + xError * std::sin(phi));
+            double strafe = strafe_PD.get_value(xError * std::cos(phi) - yError * std::sin(phi));
+            double turn = turn_PD.get_value(imuError) * turn_coefficient;
+
+            mecanum(power, strafe, turn, 127);
+
+            delay(5);
+        }
     }
 
     public void mecanum() {
