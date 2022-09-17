@@ -22,6 +22,22 @@ public class Drive {
         motorBackRight = getBackRight;
     }
 
+    public void move_to_hendry(double x, double y) {
+        while (true) {
+            int move_to_count = (int) move_to_count + 1;
+            double phi = heading * Math.pi / 180;
+            double IMU_error = -(heading - new_heading);
+            double y_error = new_y - y;
+            double x_error = -(new_x - x);
+
+            double power = power_PD.get_value(y_error * Math.cos(phi) + x_error * Math.sin(phi));
+            double strafe = strafe_PD.get_value(x_error * Math.cos(phi) - y_error * Math.sin(phi));
+            double turn = turn_PD.get_value(IMU_error) * turn_coefficient;
+        }
+
+        mecanum(power, strafe, turn, 127);
+    }
+
     public void mecanum() {
         double y = -gamepad1.left_stick_y; // Remember, this is reversed!
         double x = gamepad1.left_stick_x * 1.1; // Counteract imperfect strafing
