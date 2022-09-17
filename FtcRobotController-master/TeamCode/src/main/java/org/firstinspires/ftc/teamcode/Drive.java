@@ -1,5 +1,7 @@
 package org.firstinspires.ftc.teamcode;
 
+import java.io.*;
+
 import static org.firstinspires.ftc.robotcore.external.BlocksOpModeCompanion.gamepad1;
 
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
@@ -53,7 +55,7 @@ public class Drive {
 
             mecanum(power, strafe, turn, 127);
 
-            delay(5);
+            Thread.sleep(5);
         }
     }
 
