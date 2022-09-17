@@ -53,7 +53,7 @@ public class Drive {
             double strafe = strafe_PD.get_value(xError * std::cos(phi) - yError * std::sin(phi));
             double turn = turn_PD.get_value(imuError) * turn_coefficient;
 
-            mecanum(power, strafe, turn, 127);
+            mecanum(power, strafe, turn);
 
             Thread.sleep(5);
         }
