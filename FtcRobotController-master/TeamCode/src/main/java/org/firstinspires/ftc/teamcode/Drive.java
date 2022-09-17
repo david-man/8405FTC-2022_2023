@@ -26,9 +26,9 @@ public class Drive {
         while (true) {
             int move_to_count = (int) move_to_count + 1;
             double phi = heading * Math.pi / 180;
-            double IMU_error = -(heading - new_heading);
+            double IMU_error = -1 * (heading - new_heading);
             double y_error = new_y - y;
-            double x_error = -(new_x - x);
+            double x_error = -1 * (new_x - x);
 
             double power = power_PD.get_value(y_error * Math.cos(phi) + x_error * Math.sin(phi));
             double strafe = strafe_PD.get_value(x_error * Math.cos(phi) - y_error * Math.sin(phi));
