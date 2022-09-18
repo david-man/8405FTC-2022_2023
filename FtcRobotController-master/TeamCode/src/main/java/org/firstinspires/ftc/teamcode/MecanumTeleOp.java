@@ -29,6 +29,7 @@ public class MecanumTeleOp extends LinearOpMode {
 
         Drive drive = new Drive(motorFrontLeft, motorBackLeft, motorFrontRight, motorBackRight);
         Odometry odometry = new Odometry(leftEncoder, rightEncoder, perpendicularEncoder);
+        Controller controller = new Controller();
 
         waitForStart();
 
@@ -40,6 +41,8 @@ public class MecanumTeleOp extends LinearOpMode {
             double power = -gamepad1.left_stick_y; // Remember, this is reversed!
             double strafe = gamepad1.left_stick_x * 1.1; // Counteract imperfect strafing
             double turn = gamepad1.right_stick_x;
+
+            // controller.rumble();
 
             drive.mecanum(power, strafe, turn);
 
