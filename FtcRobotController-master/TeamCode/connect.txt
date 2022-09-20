@@ -1,2 +1,0 @@
-cd C:\Users\Space Exploration 4\AppData\Local\Android\Sdk\platform-tools
-adb connect 192.168.43.1:555
