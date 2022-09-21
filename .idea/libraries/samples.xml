@@ -1,0 +1,30 @@
+<component name="libraryTable">
+  <library name="samples">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/FtcRobotController-master/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/samples/ConceptVuforiaNavSwitchableCameras.blk.jar!/" />
+      <root url="jar://$PROJECT_DIR$/FtcRobotController-master/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/samples/ConceptTensorFlowObjectDetectionCustomModel.blk.jar!/" />
+      <root url="jar://$PROJECT_DIR$/FtcRobotController-master/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/samples/ConceptDeviceInteraction.blk.jar!/" />
+      <root url="jar://$PROJECT_DIR$/FtcRobotController-master/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/samples/ConceptTextToSpeech.blk.jar!/" />
+      <root url="jar://$PROJECT_DIR$/FtcRobotController-master/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/samples/SensorDigitalTouch.blk.jar!/" />
+      <root url="jar://$PROJECT_DIR$/FtcRobotController-master/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/samples/ConceptSmoothServo.blk.jar!/" />
+      <root url="jar://$PROJECT_DIR$/FtcRobotController-master/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/samples/ConceptVuforiaNav.blk.jar!/" />
+      <root url="jar://$PROJECT_DIR$/FtcRobotController-master/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/samples/ConceptGamepadLed.blk.jar!/" />
+      <root url="jar://$PROJECT_DIR$/FtcRobotController-master/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/samples/ConceptTensorFlowObjectDetectionSwitchableCameras.blk.jar!/" />
+      <root url="jar://$PROJECT_DIR$/FtcRobotController-master/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/samples/ConceptVuforiaNavWebcam.blk.jar!/" />
+      <root url="jar://$PROJECT_DIR$/FtcRobotController-master/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/samples/SensorREVColorDistance.blk.jar!/" />
+      <root url="jar://$PROJECT_DIR$/FtcRobotController-master/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/samples/default.blk.jar!/" />
+      <root url="jar://$PROJECT_DIR$/FtcRobotController-master/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/samples/BasicTankDrive.blk.jar!/" />
+      <root url="jar://$PROJECT_DIR$/FtcRobotController-master/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/samples/BasicPOVDrive.blk.jar!/" />
+      <root url="jar://$PROJECT_DIR$/FtcRobotController-master/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/samples/RevBlinkinLed.blk.jar!/" />
+      <root url="jar://$PROJECT_DIR$/FtcRobotController-master/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/samples/readme.md.jar!/" />
+      <root url="jar://$PROJECT_DIR$/FtcRobotController-master/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/samples/ConceptGamepadRumble.blk.jar!/" />
+      <root url="jar://$PROJECT_DIR$/FtcRobotController-master/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/samples/ConceptTensorFlowObjectDetectionWebcam.blk.jar!/" />
+      <root url="jar://$PROJECT_DIR$/FtcRobotController-master/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/samples/ConceptVuMarkDetection.blk.jar!/" />
+      <root url="jar://$PROJECT_DIR$/FtcRobotController-master/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/samples/ConceptGamepadTouchpad.blk.jar!/" />
+      <root url="jar://$PROJECT_DIR$/FtcRobotController-master/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/samples/ConceptTensorFlowObjectDetection.blk.jar!/" />
+      <root url="jar://$PROJECT_DIR$/FtcRobotController-master/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/samples/SensorIMU.blk.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

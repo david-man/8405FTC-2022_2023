@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Expansion Hub Firmware">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/FtcRobotController-master/TeamCode/build/intermediates/compressed_assets/debug/out/assets/updates/Expansion Hub Firmware/README.txt.jar!/" />
+      <root url="jar://$PROJECT_DIR$/FtcRobotController-master/TeamCode/build/intermediates/compressed_assets/debug/out/assets/updates/Expansion Hub Firmware/REVHubFirmware_1_08_02.bin.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

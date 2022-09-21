@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="polyfills">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/FtcRobotController-master/TeamCode/build/intermediates/compressed_assets/debug/out/assets/java/js/antlr4/polyfills/codepointat.js.jar!/" />
+      <root url="jar://$PROJECT_DIR$/FtcRobotController-master/TeamCode/build/intermediates/compressed_assets/debug/out/assets/java/js/antlr4/polyfills/fromcodepoint.js.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

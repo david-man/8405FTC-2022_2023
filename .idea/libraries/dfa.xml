@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="dfa">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/FtcRobotController-master/TeamCode/build/intermediates/compressed_assets/debug/out/assets/java/js/antlr4/dfa/DFA.js.jar!/" />
+      <root url="jar://$PROJECT_DIR$/FtcRobotController-master/TeamCode/build/intermediates/compressed_assets/debug/out/assets/java/js/antlr4/dfa/DFAState.js.jar!/" />
+      <root url="jar://$PROJECT_DIR$/FtcRobotController-master/TeamCode/build/intermediates/compressed_assets/debug/out/assets/java/js/antlr4/dfa/index.js.jar!/" />
+      <root url="jar://$PROJECT_DIR$/FtcRobotController-master/TeamCode/build/intermediates/compressed_assets/debug/out/assets/java/js/antlr4/dfa/DFASerializer.js.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

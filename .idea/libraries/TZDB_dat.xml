@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="TZDB.dat">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/FtcRobotController-master/TeamCode/build/intermediates/compressed_assets/debug/out/assets/org/threeten/bp/TZDB.dat.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

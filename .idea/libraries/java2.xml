@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="java2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/FtcRobotController-master/TeamCode/build/intermediates/assets/debug/mergeDebugAssets/java/android.jar!/" />
+      <root url="jar://$PROJECT_DIR$/FtcRobotController-master/TeamCode/build/intermediates/assets/debug/mergeDebugAssets/java/androidx-rs.jar!/" />
+      <root url="jar://$PROJECT_DIR$/FtcRobotController-master/TeamCode/build/intermediates/assets/debug/mergeDebugAssets/java/onbotjava-classes.jar!/" />
+      <root url="jar://$PROJECT_DIR$/FtcRobotController-master/TeamCode/build/intermediates/assets/debug/mergeDebugAssets/java/core-lambda-stubs-30.0.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/FtcRobotController-master/TeamCode/build/intermediates/assets/debug/mergeDebugAssets/java/desugar_jdk_libs-1.1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
